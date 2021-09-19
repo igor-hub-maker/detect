@@ -16,15 +16,14 @@ using System.Windows.Shapes;
 namespace deteckt.View
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AllSnapsLayout.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AllSnapsLayout : Window
     {
-        public MainWindow()
+        public AllSnapsLayout()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
-            this.Closing += (s, e) => (this.DataContext as IDisposable).Dispose();
         }
+        
     }
 }

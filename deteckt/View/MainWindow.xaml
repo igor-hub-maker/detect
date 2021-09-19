@@ -3,25 +3,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local1="clr-namespace:deteckt.ViewModel" d:DataContext="{d:DesignInstance Type=local1:MainWindowViewModel}"
+        xmlns:local="clr-namespace:deteckt.ViewModel" d:DataContext="{d:DesignInstance Type=local:MainWindowViewModel}"
         mc:Ignorable="d"
-        Title="detecktOpenCV" Height="450" Width="800">
-    <Window.DataContext>
-        <local1:MainWindowViewModel/>
-    </Window.DataContext>
-    <Grid Height="419" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="792">
+        Title="detecktOpenCV" Height="450" Width="808">
+    <Grid Height="419" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="800" Margin="0,0,-8,0">
         <Image Source="{Binding Image}" Margin="0,0,365,210"/>
-        <ComboBox Margin="432,10,0,373"
-                      Width="350"
-                      HorizontalAlignment="Left"
-                      VerticalAlignment="Center"
-                      DisplayMemberPath="Name"
-                      ItemsSource="{Binding VideoDevices}"
-                      SelectedItem="{Binding CurrentDevice}" Height="36" />
+        <ComboBox Margin="432,10,0,373" Width="350" HorizontalAlignment="Left" VerticalAlignment="Center" DisplayMemberPath="Name" ItemsSource="{Binding VideoDevices}" SelectedItem="{Binding CurrentDevice}" Height="36" />
         <Button Margin="432,51,10,328" Content="Start" Command="{Binding StartSourceCommand}"/>
         <Button Margin="432,96,10,283" Content="Stop" Command="{Binding StopSourceCommand}"/>
         <Button Margin="432,141,10,238" Content="Snapshot" Command="{Binding SaveSnapshotCommand}"/>
-
+        <!--list images-->
+        <Button Margin="0,239,780,83" Content="←" Command="{Binding BackCommand}"/>
+        <Button Margin="425,239,355,83" Content="→" Command="{Binding NextCommand}"/>
+        <Button Margin="25,239,645,83" Command="{Binding ShowImage1}">
+            <Image Source="{Binding ImageToView1}" Width="129" Height="102"></Image>
+        </Button>
+        <Label Margin="25,341,645,51"/>
+        <Button Margin="160,239,510,83" Command="{Binding ShowImage2}">
+            <Image Source="{Binding ImageToView2}" Width="129" Height="102"/>
+        </Button>
+        <Label Margin="160,341,510,51" />
+        <Button Margin="290,239,380,83" Command="{Binding ShowImage3}">
+            <Image Source="{Binding ImageToView3}" Width="129" Height="102"/>
+        </Button>
+        <Label Margin="295,341,375,51"/>
     </Grid>
-
 </Window>

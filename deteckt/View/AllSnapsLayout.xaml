@@ -1,0 +1,19 @@
+﻿<Window x:Class="deteckt.View.AllSnapsLayout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:deteckt.View" xmlns:local1="clr-namespace:deteckt.ViewModel"
+        
+        mc:Ignorable="d"
+        Title="AllSnapsLayout" Height="450" Width="800">
+    <Window.DataContext>
+        <local1:AllSnapsViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Button Margin="0,367,732,0" Content="Back" Command="{Binding MainWindowCommand}"/>
+        <Button Margin="0,291,671,73" Content="previys" Command="{Binding BackCommand}"/>
+        <Button Margin="661,291,10,73" Content="next" Command="{Binding NextCommand}"/>
+        <Image Margin="88,10,84,149" Source="{Binding ShownImage}"/>
+    </Grid>
+</Window>

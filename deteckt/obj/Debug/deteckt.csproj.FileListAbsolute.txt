@@ -35,7 +35,6 @@ C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.dll
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.Extras.dll
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.Platform.dll
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\MvvmCross.dll
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\Accord.xml
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\Accord.Video.xml
@@ -50,7 +49,7 @@ C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
-C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\MvvmCross.pdb
-C:\Users\igore\Desktop\dd\detect\deteckt\bin\Debug\MvvmCross.xml
 C:\Users\igore\Desktop\dd\detect\deteckt\obj\Debug\deteckt_Content.g.cs
 C:\Users\igore\Desktop\dd\detect\deteckt\obj\Debug\deteckt.csproj.CopyComplete
+C:\Users\igore\Desktop\dd\detect\deteckt\obj\Debug\View\ImageShow.g.cs
+C:\Users\igore\Desktop\dd\detect\deteckt\obj\Debug\View\ImageShow.baml
